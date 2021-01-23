@@ -1,19 +1,23 @@
 html, body{
     margin: 0px;padding: 0px;
 }
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
 #TitleSite{
     margin: auto;padding: 0px;
     display: inline-block;
     color: rgb(240, 239, 250);
     padding: 0px;
-    margin-left: 15%;
+    /* padding-left: 15%; */
     size:2em;
 }
 ul{
     display: inline;
     margin: auto;padding: 0px;
     padding: 0px;margin: auto;
-    margin-left: 20%;
+    /* padding-left: 20%; */
 }
 ul li{
     list-style: none;
@@ -25,9 +29,16 @@ a{
     font-family: 'PT Sans', sans-serif;
     font-family: 'Shadows Into Light', cursive;
     color: white;
+    transition: 0.3s;
+    transition-property: border-bottom, opacity;
 }
-a:hover{
-    color: brown;
+.nav-link:hover{
+    text-decoration: none;
+    border-bottom: 8px solid rgb(230, 100, 80);
+    opacity: 0.7;
+}
+.navbarContent{
+    padding: 0px;margin: 0px;
 }
 #Header{
     height: 30%;
@@ -36,19 +47,38 @@ a:hover{
     font-family: 'Andika New Basic', sans-serif;
     font-family: 'PT Sans', sans-serif;
     font-family: 'Shadows Into Light', cursive;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 #Sec1{
-    height: 700px;
-    width: 50%;
+    height: 695px;
+    width: 70%;
     background-color: rba(230, 170, 250);
     padding: 0px;margin: auto;
-    border-left: 2px solid red;
-    border-right: 2px solid red;
+    /* border-left: 2px solid red;
+    border-right: 2px solid red; */
 }
 #Footer{
     height: 30%;
     background-color: rgb(50, 50, 50);
+    flex-basis: 100%;
 }
 #SecondPartie{
     padding: 0px;margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.Q1{
+    background-color: rgb(60, 95, 209);
+    height: 195px;
+}
+.Q2{
+    background-color: rgb(50, 80, 90);
+    height: 200px;
+}
+.Q3{
+    background-color: rgb(80, 20, 10);
+    height: 300px;
 }

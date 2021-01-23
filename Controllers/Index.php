@@ -9,6 +9,9 @@ function Denoncer(){
 function Decouvrir(){
     require_once("View/Decouvrir.php");
 }
+function SeProteger(){
+    require_once("View/SeProteger.php");
+}
 function Apropos(){
     require_once("View/About.php");
 }

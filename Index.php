@@ -6,8 +6,10 @@ if(isset($_GET['Page'])){
         Apropos();
     }elseif($_GET['Page']=="Contact"){
         Contact();
-    }elseif($_GET['Page']=="Decouvrir"){
+    }elseif($_GET['Page']=="Batela"){
         Decouvrir();
+    }elseif($_GET['Page']=="Se Proteger"){
+        SeProteger();
     }elseif($_GET['Page'] == "Denoncer"){
         Denoncer();
     }else{
