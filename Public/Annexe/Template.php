@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="Public/fontawesome/js/all.min.css">
         <script src="Public/bootstrap/js/bootstrap.js"></script>
         <link rel="stylesheet" type="text/css" href="Public/bootstrap/css/bootstrap.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Open+Sans:wght@700;800&family=PT+Sans:ital,wght@1,400;1,700&family=Shadows+Into+Light&family=Ubuntu:wght@500&display=swap" rel="stylesheet">        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Montserrat+Alternates:ital,wght@1,800&family=Open+Sans:wght@700;800&family=PT+Sans:ital,wght@1,400;1,700&family=Shadows+Into+Light&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="Public/Css/StyleBatela.css">
 
         <title> <?= $Title ?> </title>
